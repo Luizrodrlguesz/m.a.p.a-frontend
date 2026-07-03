@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexTech Store | Loja virtual de eletrônicos e acessórios tech</title>
+  <meta name="description" content="NexTech Store: loja virtual simplificada de eletrônicos e acessórios de tecnologia. Fones, teclados, mouses e produtos para casa inteligente com entrega rápida." />
+  <meta name="keywords" content="loja de eletrônicos, acessórios tech, fone bluetooth, teclado mecânico, smart home, NexTech Store" />
+  <meta name="author" content="Luiz Henrique" />
+  <link rel="canonical" href="https://nextech-store.example.com/index.html" />
+
+  <!-- Open Graph / redes sociais -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NexTech Store | Loja virtual de eletrônicos e acessórios tech" />
+  <meta property="og:description" content="Eletrônicos e acessórios de tecnologia com curadoria e preço justo." />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content" style="position:absolute;left:-9999px;">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegação principal">
+      <a href="index.html" class="brand">
+        <span class="brand-logo" aria-hidden="true"><i class="bi bi-shop"></i></span>
+        NexTech Store
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu">
+        <a href="index.html">Início</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+        <a href="carrinho.html" class="nav-cart">
+          <i class="bi bi-cart3" aria-hidden="true"></i> Carrinho <span class="cart-badge">0</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container">
+        <div>
+          <h1>Tecnologia que cabe no seu <span>dia a dia</span></h1>
+          <p>Na NexTech Store você encontra fones, periféricos e itens para casa inteligente selecionados com curadoria e preço justo.</p>
+          <div class="hero-actions">
+            <a href="produtos.html" class="btn btn-accent">Ver produtos</a>
+            <a href="sobre.html" class="btn btn-outline" style="border-color:#fff;color:#fff;">Conhecer a loja</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true"><i class="bi bi-box-seam"></i></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="features-title">
+      <div class="container">
+        <h2 id="features-title" class="section-title">Por que comprar na NexTech</h2>
+        <p class="section-subtitle">Compromisso com qualidade, agilidade e um atendimento próximo do cliente.</p>
+
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <img src="img/features/frete.jpg" alt="Caminhão de entrega em movimento" loading="lazy" />
+            <div class="feature-caption">
+              <h3>Entrega rápida</h3>
+              <p>Envio para todo o Brasil com rastreamento em tempo real.</p>
+            </div>
+          </div>
+          <div class="feature-card reveal">
+            <img src="img/features/seguranca.jpg" alt="Câmera de segurança monitorando o ambiente" loading="lazy" />
+            <div class="feature-caption">
+              <h3>Compra segura</h3>
+              <p>Ambiente protegido do carrinho ao pagamento simulado.</p>
+            </div>
+          </div>
+          <div class="feature-card reveal">
+            <img src="img/features/suporte.jpg" alt="Equipe de suporte ao cliente atendendo com headset" loading="lazy" />
+            <div class="feature-caption">
+              <h3>Suporte próximo</h3>
+              <p>Dúvidas? Fale conosco pelo formulário de contato.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--color-surface);" aria-labelledby="featured-title">
+      <div class="container">
+        <h2 id="featured-title" class="section-title">Produtos em destaque</h2>
+        <p class="section-subtitle">Uma seleção dos itens mais procurados da nossa loja.</p>
+
+        <div class="product-grid" id="featured-list" aria-live="polite"></div>
+
+        <div style="text-align:center;margin-top:2.5rem;">
+          <a href="produtos.html" class="btn btn-primary">Ver catálogo completo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>NexTech Store</h4>
+          <p>Loja virtual simplificada desenvolvida como atividade acadêmica de Programação Front-End.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contato</h4>
+          <ul>
+            <li>contato@nextechstore.com.br</li>
+            <li>(41) 98865-7834</li>
+            <li>São Paulo, SP</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span id="current-year"></span> NexTech Store — por Luiz Henrique. Projeto acadêmico sem fins comerciais.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products-data.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/produtos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
